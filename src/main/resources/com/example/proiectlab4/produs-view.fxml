@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.proiectlab4.javafx.ProdusController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <ListView fx:id="listProduse"/>
+    <HBox>
+        <VBox>
+            <Label fx:id="labelId">Id produs</Label>
+            <TextField fx:id="textFieldProdusId"/>
+        </VBox>
+
+        <VBox>
+            <Label fx:id="labelCategorie">Categorie produs</Label>
+            <TextField fx:id="textFieldProdusCategorie"/>
+        </VBox>
+
+        <VBox>
+            <Label fx:id="labelNume">Nume produs</Label>
+            <TextField fx:id="textFieldProdusNume"/>
+        </VBox>
+
+        <VBox>
+            <Label fx:id="labelPret">Pret produs</Label>
+            <TextField fx:id="textFieldPret"/>
+        </VBox>
+        <VBox>
+            <Button fx:id="buttonAdd" onAction="#onAddButtonClicked" prefWidth="200">Adauga produs</Button>
+            <Button fx:id="buttonUpdate" onAction="#onUpdateButtonClicked" prefWidth="200">Actualizeaza</Button>
+            <Button fx:id="buttonDelete" onAction="#onDeleteButtonClicked" prefWidth="200">Sterge</Button>
+        </VBox>
+    </HBox>
+
+</VBox>

@@ -1,0 +1,5 @@
+1,alimente,carne,200
+2,alimente,lapte,100
+3,bautura,apa minerala,100
+4,alimente,mar,100
+5,bautura,suc,350

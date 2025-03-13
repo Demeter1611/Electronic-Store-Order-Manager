@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.proiectlab4.javafx.ComandaController">
+    <ListView fx:id="listComenzi"/>
+    <HBox>
+        <VBox>
+            <Label fx:id="labelId">Id comanda</Label>
+            <TextField fx:id="textFieldComandaId"/>
+        </VBox>
+
+        <VBox>
+            <Label fx:id="labelProduse">Produse(ID separate prin virgula)</Label>
+            <TextField fx:id="textFieldComandaProduse"/>
+        </VBox>
+
+        <VBox>
+            <Label fx:id="labelDataLivrare">Data livrare</Label>
+            <TextField fx:id="textFieldDataLivrare"/>
+        </VBox>
+        <VBox>
+            <Button fx:id="buttonAdd" onAction="#onAddButtonClicked" prefWidth="200">Adauga comanda</Button>
+            <Button fx:id="buttonUpdate" onAction="#onUpdateButtonClicked" prefWidth="200">Actualizeaza</Button>
+            <Button fx:id="buttonDelete" onAction="#onDeleteButtonClicked" prefWidth="200">Sterge</Button>
+        </VBox>
+    </HBox>
+</VBox>

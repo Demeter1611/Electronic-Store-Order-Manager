@@ -1,0 +1,5 @@
+10,(2,alimente,lapte,100;3,bautura,apa minerala,100;4,alimente,mar,100),16/11/2004
+11,(2,alimente,lapte,100),01/01/1970
+12,(4,alimente,mar,100),01/01/1970
+13,(3,bautura,apa minerala,100),01/01/1970
+14,(5,bautura,suc,350),01/01/1970
