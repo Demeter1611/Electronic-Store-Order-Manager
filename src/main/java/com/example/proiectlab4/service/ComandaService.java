@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 
 public class ComandaService {
     IRepository<Comanda> repo;
-    IRepository<Produs> produsRepo;
+
 
     public ComandaService(IRepository<Comanda> repo){
         this.repo = repo;
